@@ -14,3 +14,7 @@ float UMeshDataExporterBPLibrary::MeshDataExporterSampleFunction(float Param)
 	return -1;
 }
 
+void UMeshDataExporterBPLibrary::ExportMeshJsonData(UStaticMesh* mesh)
+{
+	
+}
