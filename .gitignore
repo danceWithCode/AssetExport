@@ -1,5 +1,8 @@
-/Intermediate/
+/.vs/
 /Binaries/
 /DerivedDataCache/
-/.vs/
+/Intermediate/
+/Plugins/MeshDataExporter/Binaries/
+/Plugins/MeshDataExporter/Content/
+/Plugins/MeshDataExporter/Intermediate/
 /Saved/
