@@ -30,6 +30,6 @@ class UMeshDataExporterBPLibrary : public UBlueprintFunctionLibrary
 	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Execute Sample function", Keywords = "MeshDataExporter sample test testing"), Category = "MeshDataExporterTesting")
 	static float MeshDataExporterSampleFunction(float Param);
 
-	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Execute Export function"), Category = "MeshDataExporterTesting")
-	static void ExportMeshJsonData(UStaticMesh* mesh);
+	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Export StaticMesh function"), Category = "MeshDataExporterTesting")
+	static void ExportStaticMesh(UStaticMesh* StaticMesh);
 };
